@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zombie Survival Game</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white flex justify-center items-center h-screen">
+  <div id="game-container" class="relative w-[800px] h-[600px] bg-gray-800 overflow-hidden">
+    <!-- Player -->
+    <div id="player" class="absolute bg-blue-500 w-8 h-8 rounded"></div>
+
+    <!-- Health Bar -->
+    <div id="health-bar" class="absolute top-2 left-2 bg-red-600 h-4 w-full max-w-[200px] border border-red-800"></div>
+
+    <!-- Score -->
+    <div id="score" class="absolute top-2 right-2 text-lg font-bold">Score: 0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #game-container {
+    position: relative;
+    border: 3px solid #333;
+  }
+  
+  .zombie {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .bullet {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
